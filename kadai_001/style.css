@@ -1,0 +1,100 @@
+html,body{
+  width: auto;
+}
+
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 980px;
+  height: 115px;
+  
+  margin: 0 auto;
+  padding: 32px 16px;
+
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#home > a,#nav > a{
+  text-decoration: none;
+}
+
+#home > a,#nav > a:visited{
+  color:#000000;
+}
+
+#home{
+  border: solid 1px #000000;
+  padding: 0 20px;
+}
+
+#nav{
+  display: flex;
+  gap: 30px;
+}
+
+#camera > img{
+  width: 1440px;
+  height: 587px;
+  top: 140px;
+}
+
+h1{
+  font-size: 34px;
+}
+
+#about{
+text-align: center;
+padding: 30px;
+}
+
+#about-photo{
+  border-radius: 50%;
+}
+
+#about-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  width: 800px;
+}
+
+#profile{
+  text-align: left;
+}
+
+h2{
+  font-size: 24px;
+}
+
+#works{
+  text-align: center;
+  padding: 50px;
+}
+
+#works-flex{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+#left,#center,#right{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+} 
